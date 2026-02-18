@@ -117,7 +117,7 @@ For source-driven dev loops in a Clawbox VM, run this inside the VM:
 
 ```bash
 cd ~/Developer/openclaw
-node --watch-path src --watch-path tsconfig.json --watch-path package.json --watch-preserve-output scripts/run-node.mjs gateway --force
+pnpm gateway:watch
 ```
 
 Then edit files on the host in the synced source checkout (for example, `~/Developer/openclaw-1`).
